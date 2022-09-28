@@ -21,11 +21,11 @@ export default function DefaultNavbar() {
             <NavbarContainer>
                 <NavbarWrapper>
                     <a
-                        href="https://material-tailwind.com?ref=mtk"
+                        href="https://dreamfighter.id"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <NavbarBrand>Material Tailwind</NavbarBrand>
+                        <NavbarBrand>dreamfighter.id</NavbarBrand>
                     </a>
                     <NavbarToggler
                         onClick={() => setOpenNavbar(!openNavbar)}
@@ -43,7 +43,7 @@ export default function DefaultNavbar() {
                                 ripple="light"
                             >
                                 <Icon name="description" size="2xl" />
-                                &nbsp;Docs
+                                &nbsp;Web Application
                             </NavLink>
                             <NavLink
                                 href="https://material-tailwind.com/components?ref=mtk"
@@ -52,7 +52,7 @@ export default function DefaultNavbar() {
                                 ripple="light"
                             >
                                 <Icon name="apps" size="2xl" />
-                                &nbsp;Components
+                                &nbsp;Application
                             </NavLink>
                             <div className="text-white">
                                 <Dropdown
@@ -96,7 +96,7 @@ export default function DefaultNavbar() {
                                 </Dropdown>
                             </div>
                             <NavLink
-                                href="https://github.com/creativetimofficial/material-tailwind?ref=mtk"
+                                href="https://github.com/dreamfighter/material-tailwind?ref=mtk"
                                 target="_blank"
                                 rel="noreferrer"
                                 ripple="light"
@@ -108,6 +108,7 @@ export default function DefaultNavbar() {
                                 />
                                 &nbsp;Github
                             </NavLink>
+                            {/*
                             <NavLink
                                 href="https://github.com/creativetimofficial/material-tailwind/issues?ref=mtk"
                                 target="_blank"
@@ -129,6 +130,7 @@ export default function DefaultNavbar() {
                                     Free Download
                                 </Button>
                             </a>
+                            */}
                         </div>
                     </Nav>
                 </NavbarCollapse>

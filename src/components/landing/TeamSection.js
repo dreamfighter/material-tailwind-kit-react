@@ -1,9 +1,9 @@
 import Title from 'components/landing/Title';
 import TeamCard from 'components/landing/TeamCard';
-import Image1 from 'assets/img/team-1-800x800.jpg';
-import Image2 from 'assets/img/team-2-800x800.jpg';
-import Image3 from 'assets/img/team-3-800x800.jpg';
-import Image4 from 'assets/img/team-4-470x470.png';
+import Image1 from 'assets/img/IMG_20220928_134724-enhance.png';
+import Image2 from 'assets/img/IMG_20220928_134724-enhance.png';
+import Image3 from 'assets/img/IMG_20220928_134724-enhance.png';
+import Image4 from 'assets/img/IMG_20220928_134724-enhance.png';
 
 export default function TeamSection() {
     return (
@@ -17,22 +17,22 @@ export default function TeamSection() {
                 <div className="flex flex-wrap">
                     <TeamCard
                         img={Image1}
-                        name="Ryan Tompson"
-                        position="Web Developer"
+                        name="Fitra"
+                        position="Software Engineer"
                     />
                     <TeamCard
                         img={Image2}
-                        name="Romina Hadid"
+                        name="Bayu"
                         position="Marketing Specialist"
                     />
                     <TeamCard
                         img={Image3}
-                        name="Alexa Smith"
+                        name="Adi"
                         position="UI/UX Designer"
                     />
                     <TeamCard
                         img={Image4}
-                        name="Jenna Kardi"
+                        name="Nugraha"
                         position="Founder and CEO"
                     />
                 </div>
