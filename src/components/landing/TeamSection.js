@@ -1,9 +1,9 @@
 import Title from 'components/landing/Title';
 import TeamCard from 'components/landing/TeamCard';
-import Image1 from 'assets/img/IMG_20220928_134724-enhance.png';
-import Image2 from 'assets/img/IMG_20220928_134724-enhance.png';
-import Image3 from 'assets/img/IMG_20220928_134724-enhance.png';
-import Image4 from 'assets/img/IMG_20220928_134724-enhance.png';
+import Image1 from 'assets/img/IMG_20220928_171733-enhance.jpg';
+import Image2 from 'assets/img/IMG_20220201_151704-enhance.jpg';
+import Image3 from 'assets/img/IMG_20200216_095242-enhance.jpg';
+import Image4 from 'assets/img/2408481502.png';
 
 export default function TeamSection() {
     return (
