@@ -14,26 +14,22 @@ export default function WorkingSection() {
         <section className="pb-20 bg-gray-100 -mt-32">
             <div className="container max-w-7xl mx-auto px-4">
                 <div className="flex flex-wrap relative z-50">
-                    <StatusCard color="red" icon="stars" title="Awarded Agency">
-                        Divide details about your product or agency work into
-                        parts. A paragraph describing a feature will be enough.
+                    <StatusCard color="red" icon="fa fa-laptop-code" title="Web Development">
+                        We carry more than just good coding skills. Our experience makes us stand out from other web development.
                     </StatusCard>
                     <StatusCard
                         color="lightBlue"
-                        icon="autorenew"
-                        title="Free Revisions"
+                        icon="fa fa-mobile"
+                        title="Mobile Development"
                     >
-                        Keep you user engaged by providing meaningful
-                        information. Remember that by this time, the user is
-                        curious.
+                        Create complex enterprise software, ensure reliable software integration, modernise your legacy system.
                     </StatusCard>
                     <StatusCard
                         color="teal"
-                        icon="fingerprint"
-                        title="Verified Company"
+                        icon="fa fa-cloud"
+                        title="IT Consultant"
                     >
-                        Write a few lines about each one. A paragraph describing
-                        a feature will be enough. Keep you user engaged!
+                        We serve you by your request, Trust our top minds to eliminate workflow pain points, implement new tech, and consolidate app portfolios.
                     </StatusCard>
                 </div>
 

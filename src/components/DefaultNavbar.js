@@ -37,22 +37,22 @@ export default function DefaultNavbar() {
                     <Nav>
                         <div className="flex flex-col z-50 lg:flex-row lg:items-center">
                             <NavLink
-                                href="https://material-tailwind.com/documentation/quick-start?ref=mtk"
+                                href="/contact-us"
                                 target="_blank"
                                 rel="noreferrer"
                                 ripple="light"
                             >
                                 <Icon name="description" size="2xl" />
-                                &nbsp;Web Application
+                                &nbsp;Contact Us
                             </NavLink>
                             <NavLink
-                                href="https://material-tailwind.com/components?ref=mtk"
+                                href="/about-us"
                                 target="_blank"
                                 rel="noreferrer"
                                 ripple="light"
                             >
                                 <Icon name="apps" size="2xl" />
-                                &nbsp;Application
+                                &nbsp;About Us
                             </NavLink>
                             <div className="text-white">
                                 <Dropdown
@@ -67,7 +67,7 @@ export default function DefaultNavbar() {
                                                 color="white"
                                             />
                                             <span className="ml-2">
-                                                Templates
+                                                Application
                                             </span>
                                         </div>
                                     }

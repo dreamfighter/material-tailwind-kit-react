@@ -34,7 +34,7 @@ export default function StatusCard({ color, icon, title, children }) {
                     <div
                         className={`p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-md rounded-full ${colors[color]}`}
                     >
-                        <Icon name={icon} size="xl" color="white" />
+                        <Icon name={icon} size="xl" color="white" family="font-awesome" />
                     </div>
                     <H6 color="gray">{title}</H6>
                     <Paragraph color="blueGray">{children}</Paragraph>

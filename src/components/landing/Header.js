@@ -11,10 +11,7 @@ export default function Header() {
                         <H2 color="white">Fight! your dream with us.</H2>
                         <div className="text-gray-200">
                             <LeadText color="gray-200">
-                                This is a simple example of a Landing Page you
-                                can build using Material Tailwind. It features
-                                multiple components based on the Tailwind CSS
-                                and Material Design by Google.
+                                deamfighter.id is the place for everyone, organization, or company that can rely on to implement or build their application. we could build you web apps, mobile apps, or enterprise apps.
                             </LeadText>
                         </div>
                     </div>

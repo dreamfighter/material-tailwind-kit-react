@@ -6,10 +6,9 @@ export default function ContactSection() {
     return (
         <section className="pb-20 relative block bg-gray-100">
             <div className="container max-w-7xl mx-auto px-4 lg:pt-24">
-                <Title heading="Build something">
-                    Put the potentially record low maximum sea ice extent tihs
-                    year down to low ice. According to the National Oceanic and
-                    Atmospheric Administration, Ted, Scambos.
+                <Title heading="Trust your dream to us">
+                    Software development outsourcing is just a tool to achieve business goals. But there is no way
+                    to get worthwhile results without cooperation and trust between a client company
                 </Title>
 
                 <div className="flex flex-wrap -mt-12 justify-center">
