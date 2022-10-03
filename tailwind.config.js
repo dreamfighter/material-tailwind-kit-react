@@ -16,6 +16,8 @@ module.exports = {
                     "linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/bg-4608x2128-coding.jpg')",
                 'profile-background':
                     "linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/background-1920x1080.jpg')",
+                'dreamquran-background':
+                    "linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/dreamquran/wall.png')",
             }),
         },
     },
@@ -23,4 +25,9 @@ module.exports = {
         extend: {},
     },
     plugins: [],
+    'Config': JSON.stringify(process.env.NODE_ENV === 'production' ? {
+        serverUrl: "https://dreamfighter.id"
+      } : {
+        serverUrl: "http://localhost:3000"
+      })
 };

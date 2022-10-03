@@ -9,16 +9,16 @@ export default function DefaultFooter() {
                 <div className="container max-w-7xl mx-auto px-4">
                     <div className="flex flex-wrap text-center lg:text-left pt-6">
                         <div className="w-full lg:w-6/12 px-4">
-                            <H5 color="gray">Material Tailwind</H5>
+                            <H5 color="gray">dreamfighter.id</H5>
                             <div className="-mt-4">
                                 <LeadText color="blueGray">
-                                    Easy to use React components for Tailwind
-                                    CSS and Material Design.
+                                Fight! your dream with us. 
+                                Follow us at.
                                 </LeadText>
                             </div>
                             <div className="flex gap-2 mt-6 md:justify-start md:mb-0 mb-8 justify-center">
                                 <a
-                                    href="https://www.facebook.com/CreativeTim"
+                                    href="https://www.facebook.com/dreamfighter.id"
                                     className="grid place-items-center bg-white text-blue-600 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -29,7 +29,7 @@ export default function DefaultFooter() {
                                     />
                                 </a>
                                 <a
-                                    href="https://www.twitter.com/creativetim"
+                                    href="https://www.twitter.com/dreamfighter.id"
                                     className="grid place-items-center bg-white text-blue-400 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -40,7 +40,7 @@ export default function DefaultFooter() {
                                     />
                                 </a>
                                 <a
-                                    href="https://www.instagram.com/creativetimofficial/"
+                                    href="https://www.instagram.com/dreamfighter.id/"
                                     className="grid place-items-center bg-white text-indigo-500 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -51,18 +51,7 @@ export default function DefaultFooter() {
                                     />
                                 </a>
                                 <a
-                                    href="https://www.dribbble.com/creativetim"
-                                    className="grid place-items-center bg-white text-pink-400 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <Icon
-                                        family="font-awesome"
-                                        name="fab fa-dribbble"
-                                    />
-                                </a>
-                                <a
-                                    href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w"
+                                    href="https://www.youtube.com/channel/UC-eMBnNqWHIYySzbiTpdd8g"
                                     className="grid place-items-center bg-white text-red-600 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -73,7 +62,7 @@ export default function DefaultFooter() {
                                     />
                                 </a>
                                 <a
-                                    href="https://github.com/creativetimofficial"
+                                    href="https://github.com/dreamfighter"
                                     className="grid place-items-center bg-white text-gray-900 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -94,7 +83,7 @@ export default function DefaultFooter() {
                                     <ul className="list-unstyled">
                                         <li>
                                             <a
-                                                href="https://www.creative-tim.com/presentation?ref=mtk"
+                                                href="/about-us"
                                                 target="_blank"
                                                 rel="noreferrer"
                                                 className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
@@ -106,66 +95,9 @@ export default function DefaultFooter() {
                                             <a
                                                 className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                                                 target="_blank"
-                                                href=" https://www.creative-tim.com/blog?ref=mtk"
+                                                href="/blog"
                                             >
                                                 Blog
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="https://www.github.com/creativetimofficial?ref=mtk"
-                                                target="_blank"
-                                                rel="noreferrer"
-                                                className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
-                                            >
-                                                Github
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href=" https://www.creative-tim.com/templates/free?ref=mtk"
-                                                target="_blank"
-                                                rel="noreferrer"
-                                                className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
-                                            >
-                                                Free Products
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="w-full lg:w-4/12 px-4">
-                                    <span className="block uppercase text-gray-900 text-sm font-serif font-medium mb-2">
-                                        Other Resources
-                                    </span>
-                                    <ul className="list-unstyled">
-                                        <li>
-                                            <a
-                                                href="https://github.com/creativetimofficial/material-tailwind/blob/main/LICENSE.md?ref=mtk"
-                                                target="_blank"
-                                                rel="noreferrer"
-                                                className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
-                                            >
-                                                MIT License
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="https://github.com/creativetimofficial/material-tailwind/blob/main/CONTRIBUTING.md?ref=mtk"
-                                                target="_blank"
-                                                rel="noreferrer"
-                                                className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
-                                            >
-                                                Contribute
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="https://github.com/creativetimofficial/material-tailwind/blob/main/CODE_OF_CONDUCT.md?ref=mtk"
-                                                target="_blank"
-                                                rel="noreferrer"
-                                                className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
-                                            >
-                                                Code of Conduct
                                             </a>
                                         </li>
                                         <li>
